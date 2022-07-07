@@ -1,0 +1,112 @@
+/* General Fonts import */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+/* General Common Styles */
+
+body {
+    margin: 0em;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Campaign Section */
+
+.campaign{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cover {
+    height: 400px;
+    color: white;
+}
+
+.cover .background-image {
+    height: 470px;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    z-index: -1;
+}
+
+/* Imformation Section */
+
+.imformation{
+    font-family: 'Poppins', sans-serif;
+}
+
+.background-image-small{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title{
+    min-height: 2rem;
+}
+
+.card-text{
+    min-height: 5rem;
+}
+
+/* Terms Section */
+
+.terms{
+    background: #555555;
+    color: #efefef;
+}
+
+/* Form Section */
+
+.form{
+    color: #000000;
+}
+
+.image-container{
+    width: 100%;
+    padding-top: 56.25%;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+/* Footer Section */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    background-color: #414A4F;
+    padding: 60px 0;
+}
+
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer p a {
+    color: #FFF;
+}
+
+
+
+
+
+
+
